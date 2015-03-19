@@ -1,0 +1,743 @@
+# Copyright (C) 2013 WP LinkedIn
+# This file is distributed under the same license as the WP LinkedIn package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-linkedin\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-linkedin\n"
+"POT-Creation-Date: 2013-12-24 12:32:49+00:00\n"
+"PO-Revision-Date: 2013-12-27 08:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"X-POOTLE-MTIME: 1388092853.0\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+
+#: class-admin.php:14 class-admin.php:153
+msgid "LinkedIn Options"
+msgstr "LinkedIn-opties"
+
+#: class-admin.php:14
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: class-admin.php:16
+msgid "Profile fields"
+msgstr "Profielvelden"
+
+#: class-admin.php:17
+msgid "Profile language"
+msgstr "Profieltaal"
+
+#: class-admin.php:18
+msgid "Send mail on token expiry"
+msgstr "Verzend mail bij verlopen token"
+
+#: class-admin.php:19
+msgid "Verify SSL peer"
+msgstr "Verifieer SSL peer"
+
+#: class-admin.php:20
+msgid "LinkedIn cards"
+msgstr "LinkedIn-kaartjes"
+
+#: class-admin.php:30
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class-admin.php:37
+msgid "Comma separated list of fields to show on the profile."
+msgstr "Komma gescheiden lijst met velden om op profiel weer te geven."
+
+#: class-admin.php:38
+msgid ""
+"You can overide this setting in the shortcode with the `fields` attribute."
+msgstr ""
+"Je kunt deze instelling overschrijven in de shortcode met het `fields` "
+"attribuut."
+
+#: class-admin.php:39
+msgid ""
+"See the <a href=\"https://developers.linkedin.com/documents/profile-fields\" "
+"target=\"_blank\">LinkedIn API documentation</a> for the complete list of "
+"fields."
+msgstr ""
+"Zie de <a href=\"https://developers.linkedin.com/documents/profile-fields\" "
+"target=\"_blank\">LinkedIn API documentatie</a> voor de complete lijst met "
+"velden."
+
+#: class-admin.php:48
+msgid "Default"
+msgstr "Standaard"
+
+#: class-admin.php:55
+msgid ""
+"The language of the profile to display if you have several profiles in "
+"different languages."
+msgstr ""
+"De taal van het profiel om weer te geven, wanneer je meerdere profielen in "
+"verschillende talen hebt."
+
+#: class-admin.php:56
+msgid ""
+"You can overide this setting in the shortcode with the `lang` attribute."
+msgstr ""
+"Je kunt deze instelling overschrijven in de shortcode met het `lang` "
+"attribuut."
+
+#: class-admin.php:57
+msgid ""
+"See \"Selecting the profile language\" <a href=\"https://developer.linkedin."
+"com/documents/profile-api\" target=\"_blank\">LinkedIn API documentation</a> "
+"for details."
+msgstr ""
+"Zie \"Selecting the profile language\" <a href=\"https://developer.linkedin."
+"com/documents/profile-api\" target=\"_blank\">LinkedIn API documentatie</a> "
+"voor details."
+
+#: class-admin.php:63
+msgid ""
+"Check this option if you want the plugin to send you an email when the token "
+"has expired or is invalid."
+msgstr ""
+"Schakel deze optie in als je wilt dat de plug-in je een e-mail stuurt "
+"wanneer de token verlopen of ongeldig is."
+
+#: class-admin.php:69
+msgid ""
+"Uncheck this option only if you have SSL certificate issues on your server."
+msgstr ""
+"Schakel deze optie alleen uit als je SSL certificaat problemen op je server "
+"hebt."
+
+#: class-admin.php:79
+msgid "Check the content types where you want your LinkedIn card inserted."
+msgstr ""
+"Selecteer de content types waarbij je LinkedIn-kaartje toegevoegd moet "
+"worden."
+
+#: class-admin.php:87
+msgid "An error has occured while retrieving the profile:"
+msgstr "Er is een fout opgetreden tijdens het ophalen van het profiel:"
+
+#: class-admin.php:91
+msgid ""
+"Your LinkedIn access token is invalid or has expired, please <a href=\"%s"
+"\">click here</a> to get a new one."
+msgstr ""
+"Je LinkedIn-toegangstoken is ongeldig of verlopen, <a href=\"%s\">klik "
+"hier</ a> om een nieuwe te krijgen."
+
+#: class-admin.php:101
+msgid "The access token has been successfully updated."
+msgstr "De toegangstoken is bijgewerkt."
+
+#: class-admin.php:107
+msgid "An error has occured while updating the access token, please try again."
+msgstr ""
+"Er is een fout opgetreden tijdens het bijwerken van de toegangstoken, "
+"probeer het opnieuw."
+
+#: class-admin.php:108
+msgid "Error message: "
+msgstr "Foutmelding:"
+
+#: class-admin.php:112
+msgid "The cache has been cleared."
+msgstr "De cache is gewist."
+
+#: class-admin.php:145
+msgid "Invalid state"
+msgstr "Ongeldige status"
+
+#: class-admin.php:156
+msgid "Options"
+msgstr "Opties"
+
+#: class-admin.php:166
+msgid "Administration"
+msgstr "Administratie"
+
+#: class-admin.php:169
+msgid "Regenerate LinkedIn Access Token"
+msgstr "Regenereren LinkedIn-toegangstoken"
+
+#: class-admin.php:170
+msgid "Clear the Cache"
+msgstr "Leeg de cache"
+
+#: class-admin.php:178
+msgid "Do you like this Plugin?"
+msgstr "Hou je van deze plugin?"
+
+#: class-admin.php:180
+msgid "Please consider a donation."
+msgstr "Overweeg dan een donatie."
+
+#: class-admin.php:190
+msgid "We also need volunteers to translate that plugin into more languages."
+msgstr ""
+"We hebben ook vrijwilligers nodig die de plug-in in meer talen vertalen."
+
+#: class-admin.php:191
+msgid ""
+"If you wish to help then contact <a href=\"https://twitter.com/cvedovini"
+"\">@cvedovini</a> on Twitter or use that <a href=\"http://vedovini.net/"
+"contact/\">contact form</a>."
+msgstr ""
+"Als je wilt helpen, neem dan contact op met <a href=\"https://twitter.com/"
+"cvedovini\">@cvedovini</a> via Twitter of gebruik het <a href=\"http://"
+"vedovini.net/contact/\">contactformulier</a>."
+
+#: class-admin.php:208
+msgid "Bahasa Indonesia"
+msgstr "Bahasa Indonesia"
+
+#: class-admin.php:209
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: class-admin.php:210
+msgid "Danish"
+msgstr "Deens"
+
+#: class-admin.php:211
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: class-admin.php:212
+msgid "French"
+msgstr "Frans"
+
+#: class-admin.php:213
+msgid "German"
+msgstr "Duits"
+
+#: class-admin.php:214
+msgid "Italian"
+msgstr "Italiaans"
+
+#: class-admin.php:215
+msgid "Japanese"
+msgstr "Japans"
+
+#: class-admin.php:216
+msgid "Korean"
+msgstr "Koreaans"
+
+#: class-admin.php:217
+msgid "Malay"
+msgstr "Maleis"
+
+#: class-admin.php:218
+msgid "Norwegian"
+msgstr "Noors"
+
+#: class-admin.php:219
+msgid "Polish"
+msgstr "Pools"
+
+#: class-admin.php:220
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: class-admin.php:221
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: class-admin.php:222
+msgid "Russian"
+msgstr "Russisch"
+
+#: class-admin.php:223
+msgid "Spanish"
+msgstr "Spaans"
+
+#: class-admin.php:224
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: class-admin.php:225
+msgid "Turkish"
+msgstr "Turks"
+
+#: class-admin.php:226
+msgid "Albanian"
+msgstr "Albanees"
+
+#: class-admin.php:227
+msgid "Armenian"
+msgstr "Armeens"
+
+#: class-admin.php:228
+msgid "Bosnian"
+msgstr "Bosnisch"
+
+#: class-admin.php:229
+msgid "Burmese (Myanmar)"
+msgstr "Birmaans (Myanmar)"
+
+#: class-admin.php:230
+msgid "Chinese (Simplified)"
+msgstr "Chinees (vereenvoudigd)"
+
+#: class-admin.php:231
+msgid "Chinese (Traditional)"
+msgstr "Chinees (traditioneel)"
+
+#: class-admin.php:232
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: class-admin.php:233
+msgid "Finnish"
+msgstr "Fins"
+
+#: class-admin.php:234
+msgid "Greek"
+msgstr "Grieks"
+
+#: class-admin.php:235
+msgid "Hindi"
+msgstr "Hindi"
+
+#: class-admin.php:236
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: class-admin.php:237
+msgid "Icelandic"
+msgstr "IJslands"
+
+#: class-admin.php:238
+msgid "Javanese"
+msgstr "Javaans"
+
+#: class-admin.php:239
+msgid "Kannada"
+msgstr "Kannada"
+
+#: class-admin.php:240
+msgid "Latvian"
+msgstr "Lets"
+
+#: class-admin.php:241
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: class-admin.php:242
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: class-admin.php:243
+msgid "Serbian"
+msgstr "Servisch"
+
+#: class-admin.php:244
+msgid "Slovak"
+msgstr "Slowaaks"
+
+#: class-admin.php:245
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: class-admin.php:246
+msgid "Tamil"
+msgstr "Tamil"
+
+#: class-admin.php:247
+msgid "Telugu"
+msgstr "Telugu"
+
+#: class-admin.php:248
+msgid "Thai"
+msgstr "Thais"
+
+#: class-admin.php:249
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: class-admin.php:250
+msgid "Vietnamese"
+msgstr "Vietnamees"
+
+#: class-admin.php:251
+msgid "Other"
+msgstr "Anders"
+
+#: class-card-widget.php:6
+msgid "LinkedIn Card"
+msgstr "LinkedIn-kaartje"
+
+#: class-card-widget.php:7
+msgid "A widget displaying your LinkedIn card"
+msgstr "Een widget weergeven van je LinkedIn-kaartje"
+
+#: class-card-widget.php:40 class-profile-widget.php:44
+#: class-recommendations-widget.php:45 class-updates-widget.php:39
+msgid "Title:"
+msgstr "Titel:"
+
+#: class-card-widget.php:44
+msgid "Width of picture (in px):"
+msgstr "Breedte van de afbeelding (in px):"
+
+#: class-card-widget.php:48
+msgid "Max length of summary (in char):"
+msgstr "Max. lengte van de samenvatting (in char):"
+
+#: class-card-widget.php:50
+msgid "Specify '0' to hide the summary."
+msgstr "Geef op '0 'om de samenvatting te verbergen."
+
+#: class-linkedin-connection.php:79
+msgid "An unknown error has occured and no token was retrieved."
+msgstr "Een onbekende fout is opgetreden en er is geen token is opgehaald."
+
+#: class-linkedin-connection.php:188
+msgid "HTTP request returned error code %d."
+msgstr "HTTP request geeft foutcode %d."
+
+#: class-linkedin-connection.php:200
+msgid "No token or token has expired."
+msgstr "Geen of verlopen token."
+
+#: class-linkedin-connection.php:209
+msgid "Invalid or expired access token"
+msgstr "Ongeldig of verlopen toegangstoken"
+
+#: class-linkedin-connection.php:211
+msgid ""
+"The access token for the WP LinkedIn plugin is either invalid or has "
+"expired, please click on the following link to renew it."
+msgstr ""
+"De toegangstoken voor de WP LinkedIn plug-in is ongeldig of verlopen, klik "
+"op de volgende link om deze te vernieuwen."
+
+#: class-linkedin-connection.php:213
+msgid "This link will only be valid for a limited period of time."
+msgstr "Deze link is maar geldig voor een beperkte periode."
+
+#: class-linkedin-connection.php:214
+msgid "-Thank you."
+msgstr "-Dank je wel."
+
+#: class-profile-widget.php:6
+msgid "LinkedIn Profile"
+msgstr "LinkedIn-profiel"
+
+#: class-profile-widget.php:7
+msgid ""
+"A widget displaying your LinkedIn profile using the LinkedIn Javascript API"
+msgstr ""
+"Een widget om je LinkedIn profiel weer te geven met de LinkedIn Javascript "
+"API"
+
+#: class-profile-widget.php:49
+msgid "Show connections"
+msgstr "Connecties weergeven"
+
+#: class-recommendations-widget.php:6
+msgid "LinkedIn Recommendations"
+msgstr "LinkedIn-aanbevelingen"
+
+#: class-recommendations-widget.php:7
+msgid "A slider with your LinkedIn recommendations"
+msgstr "Een slider met jouw LinkedIn-aanbevelingen"
+
+#: class-recommendations-widget.php:49
+msgid "Width of widget (in px):"
+msgstr "Breedte van de widget (in px):"
+
+#: class-recommendations-widget.php:51
+msgid ""
+"You can also specify 'auto' to let javascript automatically compute the "
+"width or 'css' to set it yourself using your theme's stylesheet."
+msgstr ""
+"Je kunt ook 'auto' instellen om Javascript de breedte automatisch te laten "
+"berekenen of CSS om de breedte zelf in te stellen met de stylesheet van je "
+"thema."
+
+#: class-recommendations-widget.php:54
+msgid "Length of recommendations (in char):"
+msgstr "Lengte van aanbevelingen (in char):"
+
+#: class-recommendations-widget.php:58
+msgid "Scroller's speed:"
+msgstr "Scroller-snelheid:"
+
+#: class-updates-widget.php:6
+msgid "LinkedIn Network Updates"
+msgstr "LinkedIn Netwerkupdates"
+
+#: class-updates-widget.php:7
+msgid "A widget displaying your LinkedIn network updates"
+msgstr "Een widget weergeven van je LinkedIn-netwerkupdates"
+
+#: class-updates-widget.php:43
+msgid "Number of updates to show:"
+msgstr "Aantal updates om weer te geven:"
+
+#: class-updates-widget.php:48
+msgid "Show my updates only"
+msgstr "Alleen mijn updates weergeven"
+
+#: templates/network-updates.php:7 templates/profile.php:114
+#: templates/recommendations.php:18
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: templates/network-updates.php:34
+msgid "%1$s is now connected to %2$s."
+msgstr "%1$s heeft nu een connectie met %2$s."
+
+#: templates/network-updates.php:40
+msgid "%s is now a connection."
+msgstr "%s is nu een connectie."
+
+#: templates/network-updates.php:45
+msgid "%s has joined LinkedIn."
+msgstr "%s is lid geworden van LinkedIn."
+
+#: templates/network-updates.php:50 templates/network-updates.php:55
+msgid "%1$s says: %2$s"
+msgstr "%1$s heeft commentaar gegeven op: %2$s"
+
+#: templates/network-updates.php:60
+msgid "%1$s likes: %2$s"
+msgstr "%1$s vindt de update interessant: %2$s"
+
+#: templates/network-updates.php:67
+msgid "%1$s joined the group %2$s."
+msgstr "%1$s is lid geworden van de groep %2$s."
+
+#: templates/network-updates.php:81
+msgid "%s has a new profile picture."
+msgstr "%s heeft een nieuwe foto."
+
+#: templates/network-updates.php:88 templates/network-updates.php:116
+msgid "%s has an updated profile."
+msgstr "%s heeft een bijgewerkt profiel."
+
+#: templates/network-updates.php:95
+msgid "%1$s recommends %2$s."
+msgstr "%1$s werd aanbevolen door %2$s."
+
+#: templates/network-updates.php:103
+msgid "%1$s posted a job: %2$s at %3$s."
+msgstr "%1$s heeft een vacature gedeeld: %2$s bij %3$s."
+
+#: templates/network-updates.php:110
+msgid "%1$s is now following %2$s."
+msgstr "%1$s volgt nu %2$s."
+
+#: templates/profile.php:11
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: templates/profile.php:18
+msgid "Specialties"
+msgstr "Specialismen"
+
+#: templates/profile.php:25
+msgid "Experience"
+msgstr "Ervaring"
+
+#: templates/profile.php:28 templates/profile.php:45 templates/profile.php:90
+msgid "Present"
+msgstr "Huidig"
+
+#: templates/profile.php:41
+msgid "Volunteer Experiences"
+msgstr "Ervaring in vrijwilligers- en liefdadigheidswerk"
+
+#: templates/profile.php:61
+msgid "Skills &amp; Expertise"
+msgstr "Vaardigheden en deskundigheid"
+
+#: templates/profile.php:73
+msgid "Languages"
+msgstr "Talen"
+
+#: templates/profile.php:87 wp-linkedin.php:274
+msgid "Education"
+msgstr "Onderwijs / Algemeen onderwijs"
+
+#: templates/profile.php:93
+msgid "Activities and societies"
+msgstr "Activiteiten en verenigingen"
+
+#: templates/profile.php:105
+msgid "Recommendations"
+msgstr "Aanbevelingen"
+
+#: wp-linkedin.php:221
+msgid "You don't have any recommendation to show."
+msgstr "Je hebt geen aanbeveling om te laten zien."
+
+#: wp-linkedin.php:268
+msgid "Animal Welfare"
+msgstr "Welzijn van dieren"
+
+#: wp-linkedin.php:269
+msgid "Arts and Culture"
+msgstr "Kunst en cultuur"
+
+#: wp-linkedin.php:270
+msgid "Children"
+msgstr "Kinderen"
+
+#: wp-linkedin.php:271
+msgid "Civil Rights and Social Action"
+msgstr "Burgerrechten en maatschappelijke actie"
+
+#: wp-linkedin.php:272
+msgid "Disaster and Humanitarian Relief"
+msgstr "Humanitaire hulp en hulpverlening voor rampslachtoffers"
+
+#: wp-linkedin.php:273
+msgid "Economic Empowerment"
+msgstr "Economische zelfstandigheid"
+
+#: wp-linkedin.php:275
+msgid "Environment"
+msgstr "Milieu"
+
+#: wp-linkedin.php:276
+msgid "Health"
+msgstr "Gezondheid"
+
+#: wp-linkedin.php:277
+msgid "Human Rights"
+msgstr "Mensenrechten"
+
+#: wp-linkedin.php:278
+msgid "Politics"
+msgstr "Politiek"
+
+#: wp-linkedin.php:279
+msgid "Poverty Alleviation"
+msgstr "Armoedebestrijding"
+
+#: wp-linkedin.php:280
+msgid "Science and Technology"
+msgstr "Wetenschap en techniek"
+
+#: wp-linkedin.php:281
+msgid "Social Services"
+msgstr "Welzijnsvoorzieningen"
+
+#. Plugin Name of the plugin/theme
+msgid "WP LinkedIn"
+msgstr "WP LinkedIn"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://vedovini.net/plugins/?"
+"utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-linkedin"
+msgstr ""
+"http://vedovini.net/plugins/?"
+"utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-linkedin"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin enables you to add various part of your LinkedIn profile to your "
+"Wordpress blog."
+msgstr ""
+"Deze plugin maakt het mogelijk om verschillende delen van je LinkedIn "
+"profiel toe te voegen aan je Wordpress blog."
+
+#. Author of the plugin/theme
+msgid "Claude Vedovini"
+msgstr "Claude Vedovini"
+
+#. Author URI of the plugin/theme
+msgid ""
+"http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-"
+"linkedin"
+msgstr ""
+"http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-"
+"linkedin"
+
+#~ msgid "LinkedIn card in posts"
+#~ msgstr "LinkedIn-kaartje in berichten"
+
+#~ msgid "Check this option to display your LinkedIn card after each post."
+#~ msgstr ""
+#~ "Schakel deze optie in om je LinkedIn-kaartje achter elk bericht weer te "
+#~ "geven."
+
+#~ msgid ""
+#~ "The access token for the WP LinkedIn plugin is either invalid or has "
+#~ "expired, please click on the following link to renew it.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "This link will only be valid for a limited period of time.\n"
+#~ "-Thank you."
+#~ msgstr ""
+#~ "De access token voor de WP LinkedIn plugin is ongeldig of verlopen, klik "
+#~ "op de volgende link om deze te vernieuwen.\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Deze link is maar geldig voor een beperkte periode.\n"
+#~ "-Dank je wel."
+
+#~ msgid ""
+#~ "There's something wrong and the profile could not be retreived, please "
+#~ "check the list of profile fields to be fetched. If everything seems good "
+#~ "try regenerating the access token."
+#~ msgstr ""
+#~ "Er is iets misgegaan en het profiel kon niet worden opgehaald, controleer "
+#~ "de lijst van de profielvelden die worden opgehaald. Als alles goed lijkt, "
+#~ "probeer dan het regenereren van de access token."
+
+#~ msgid ""
+#~ "There's something wrong and the network updates could not be retreived. "
+#~ "Try regenerating the access token."
+#~ msgstr ""
+#~ "Er is iets misgegaan en de netwerkupdates konden niet worden opgehaald. "
+#~ "Probeer de access token te regenereren."
+
+#~ msgid "Save Changes"
+#~ msgstr "Wijzigingen opslaan"
+
+#~ msgid "Management"
+#~ msgstr "Administratie"
+
+#~ msgid ""
+#~ "There's something wrong and the profile could not be retreived, please "
+#~ "check your API keys and the list of profile fields to be fetched. If "
+#~ "everything seems good try regenerating the keys."
+#~ msgstr ""
+#~ "Er is iets mis en het profiel kon niet worden retreived, controleer dan "
+#~ "uw API-sleutels en de lijst van profiel velden worden opgehaald. Als "
+#~ "alles goed lijkt te proberen de regeneratie van de toetsen."
+
+#~ msgid ""
+#~ "Go to the <a href=\"https://www.linkedin.com/secure/developer\">LinkedIn "
+#~ "Developer Network</a> to generate the following keys."
+#~ msgstr ""
+#~ "Gaan naar het <a href=\"https://www.linkedin.com/secure/developer"
+#~ "\">LinkedIn Developer Network</a> om de volgende sleutels te genereren."
+
+#~ msgid "Application key"
+#~ msgstr "API-code"
+
+#~ msgid "Application secret"
+#~ msgstr "Geheime code"
+
+#~ msgid "User token"
+#~ msgstr "OAuth-gebruikerstoken"
+
+#~ msgid "User secret"
+#~ msgstr "OAuth-gebruikersgeheim"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"

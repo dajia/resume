@@ -1,0 +1,137 @@
+/* Resume Builder - Front-End Styling */
+
+/* Layout */
+.rb-resume-left { line-height:1.7; width:65%; float:left; }
+.rb-resume-right { line-height:1.7; width:25%; float:right; }
+
+/* Introduction */
+.rb-resume-block { padding:20px 0 0 0; }
+.rb-resume-block .rb-about:after { content:" "; clear:both; display:block; margin:0 0 30px; }
+.rb-resume-block .rb-about-image { float:left; width:35%; margin-right:5%; }
+.rb-resume-block .rb-about-image img { width:100%; height:auto; }
+.rb-resume-block .rb-about .rb-about-text { overflow: hidden; position: relative; top: -4px; }
+.rb-resume-block .rb-about .rb-about-text .rb-title { font-weight:bold; line-height:1.2; padding-bottom: 15px; font-size:35px; margin:0; }
+.rb-resume-block .rb-about .rb-about-text .rb-subtitle { padding-bottom: 13px; font-size:19px; line-height:1.5; margin:0; }
+.rb-resume-block .rb-about .rb-about-text .rb-description { padding-bottom: 22px; margin:0; }
+.rb-resume-block .rb-about .rb-about-text .rb-description p { font-weight:14px; line-height:1.7; padding:0; margin:0; }
+
+/* Experience */
+.rb-resume-block .rb-experience { padding:25px 0 0 0; }
+.rb-resume-block .rb-experience .rb-text-block { padding:10px 0 0; margin:0; }
+.rb-resume-block .rb-experience .rb-section-title { color:#E04C38; border-top:1px solid #ddd; font-weight:bold; padding:10px 0 25px; font-size:25px; margin:0; }
+
+.rb-resume-block .rb-experience-item { padding-bottom: 30px; }
+.rb-resume-block .rb-experience-item .rb-title { font-size: 17px; font-weight:bold; padding:0; }
+.rb-resume-block .rb-experience-item .rb-right { float: right; font-size: 17px; padding:0; }
+.rb-resume-block .rb-experience-item .rb-subtitle { color: #aaa; }
+.rb-resume-block .rb-experience-item .rb-description { padding-top:10px; margin:0; }
+.rb-resume-block .rb-experience-item .rb-description p { font-size:14px; line-height:1.7; padding:0; margin:0; }
+
+.rb-resume-block .rb-btn, .widget .rb-resume-block .rb-btn {
+	display: inline-block;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 14px 5px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    background-color: #E04C38;
+	border: 2px solid #E04C38;
+	text-decoration: none;
+	color: #ffffff;
+	box-sizing:border-box;
+	line-height:1.9;
+}
+.rb-resume-block .rb-buttons .rb-btn + .rb-btn { margin-left: 10px; }
+.rb-resume-block .rb-btn.rb-btn-white { background-color: transparent; border-color: #333; color: #333; }
+.rb-resume-block .rb-btn:hover, .widget .rb-resume-block .rb-btn:hover { text-decoration: none; background:#333; color:#fff; border-color:#333; }
+.widget .rb-resume-block .rb-buttons .rb-btn + .rb-btn { margin:10px 0 0 0; }
+.widget .rb-resume-block .rb-btn { width:100%; display:block; margin:0; }
+
+/* Widget Styling */
+.rb-widget-experience { font-size: 15px; }
+.rb-widget-experience .rb-experience-title { padding:0 0 5px; font-size:17px; line-height:1.5; font-weight:bold; }
+.rb-experience-rating { color: #e04c38; font-size: 17px; padding:0 0 5px; line-height:1.5; }
+.rb-widget-experience .rb-experience-description p { font-weight:14px; line-height:1.5; }
+
+.widget .rb-contact-block, .widget .rb-contact-block li { list-style:none; }
+.widget .rb-contact-block li { min-height: 35px; margin-bottom: 11px; }
+.widget .rb-contact-block li span { font-size:16px; background:#eee; float: left; border-radius: 50%; width: 35px; height: 35px; line-height: 35px; text-align: center; margin: -5px 17px 0 0; }
+
+.widget .rb-resume-block { padding:0; }
+.widget .rb-resume-block .rb-about:after { margin:0 0 20px; }
+.widget .rb-resume-block .rb-about-image { float:none; margin:0 0 20px; max-width:100%; height:auto; }
+.widget .rb-resume-block .rb-about-image img { width:100%; max-width:100%; height:auto; }
+.widget .rb-resume-block .rb-about .rb-about-text { position: relative; top:0; }
+.widget .rb-resume-block .rb-about .rb-about-text .rb-title { font-size:25px; }
+.widget .rb-resume-block .rb-about .rb-about-text .rb-subtitle { font-size:16px; }
+.widget .rb-resume-block .rb-about .rb-about-text .rb-description p { font-weight:14px; line-height:1.7; padding:0; margin:0; }
+
+.widget .rb-resume-block .rb-experience .rb-section-title { color:#E04C38; border-top:1px solid #ddd; font-weight:bold; padding:10px 0 25px; font-size:20px; margin:0; }
+.widget .rb-resume-block .rb-experience-item { padding-bottom: 20px; }
+.widget .rb-resume-block .rb-experience-item .rb-title { font-size: 15px; line-height:1.6; }
+.widget .rb-resume-block .rb-experience-item .rb-right { float:none; display:block; font-size: 15px; padding:0; }
+.widget .rb-resume-block .rb-experience-item .rb-right p { margin:0; }
+.widget .rb-resume-block .rb-experience-item .rb-subtitle { padding-top:7px; }
+.widget .rb-resume-block .rb-experience-item .rb-description p { font-size:13px; }
+
+/* Rating Stars */
+.star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+.star-on-png:before { content: "\f005"; }
+.star-off-png:before { content: "\f006"; }
+.star-half-png:before { content: "\f123"; }
+
+
+@media (max-width: 790px) {
+
+	.rb-resume-block .rb-buttons .rb-btn + .rb-btn { margin:10px 0 0 0; }
+	.rb-resume-block .rb-btn { width:100%; display:block; margin:0; text-align:center; }
+	
+	.rb-resume-left { width:100%; float:none; margin:0 0 30px; }
+	.rb-resume-right { width:100%; float:none; }
+
+}
+
+@media (max-width: 600px) {
+
+	.rb-experience-title { padding:0 0 5px; font-size:17px; line-height:1.5; font-weight:bold; }
+	.rb-experience-rating { color: #e04c38; font-size: 17px; padding:0 0 5px; line-height:1.5; }
+	.rb-widget-experience .rb-experience-description p { font-weight:14px; line-height:1.5; }
+	
+	.rb-contact-block, .rb-contact-block li { list-style:none; }
+	.rb-contact-block li { min-height: 35px; margin-bottom: 11px; }
+	.rb-contact-block li span { font-size:16px; background:#eee; float: left; border-radius: 50%; width: 35px; height: 35px; line-height: 35px; text-align: center; margin: -5px 17px 0 0; }
+	
+	.rb-resume-block .rb-about:after { margin:0 0 20px; }
+	.rb-resume-block .rb-about-image { float:none; margin:0 auto 20px; width:50%; max-width:50%; height:auto; }
+	.rb-resume-block .rb-about-image img { width:100%; max-width:100%; height:auto; }
+	.rb-resume-block .rb-about .rb-about-text { position: relative; top:0; text-align:center; }
+	.rb-resume-block .rb-about .rb-about-text .rb-title { font-size:25px; }
+	.rb-resume-block .rb-about .rb-about-text .rb-subtitle { font-size:16px; }
+	.rb-resume-block .rb-about .rb-about-text .rb-description p { font-weight:14px; line-height:1.7; padding:0; margin:0; }
+	
+	.rb-resume-block .rb-experience .rb-section-title { color:#E04C38; border-top:1px solid #ddd; font-weight:bold; padding:10px 0 25px; font-size:20px; margin:0; }
+	.rb-resume-block .rb-experience-item { padding-bottom: 20px; }
+	.rb-resume-block .rb-experience-item .rb-title { font-size: 15px; line-height:1.6; }
+	.rb-resume-block .rb-experience-item .rb-right { float:none; display:block; font-size: 15px; padding:0; }
+	.rb-resume-block .rb-experience-item .rb-right p { margin:0; }
+	.rb-resume-block .rb-experience-item .rb-subtitle { padding-top:7px; }
+	.rb-resume-block .rb-experience-item .rb-description p { font-size:13px; }
+
+}
+
+@media (max-width: 480px) {
+
+	.rb-resume-block .rb-about-image { width:100%; max-width:100%; }
+	.rb-resume-block .rb-about .rb-about-text { text-align:left; }
+
+}

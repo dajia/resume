@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+.linkedin blockquote {
+	clear: none !important;
+}
+
+.linkedin blockquote .recommendation {
+	overflow: hidden;
+	width: 100%;
+}
+
+.linkedin blockquote .recommender {
+	font-size: smaller;
+	color: #999999;
+}
+
+.linkedin blockquote .recommender:before {
+	content: '\2014 \00A0';
+}
+
+.linkedin blockquote:before,
+	.linkedin blockquote:after {
+	content: "";
+}
+
+.linkedin .scrollable {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.linkedin .scrollable .items {
+	width: 20000em; /* this cannot be too large */
+	position: absolute;
+}
+
+.linkedin .scrollable .items blockquote {
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.linkedin .profile .section {
+	margin-bottom: 20px;
+}
+
+.linkedin .profile .section .heading {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #E0E0E0;
+	color: #999;
+}
+
+.linkedin .profile .position,
+	.linkedin .profile .project,
+	.linkedin .profile .publication,
+	.linkedin .profile .education,
+	.linkedin .profile .honor,
+	.linkedin .profile .volunteer {
+	margin-bottom: 20px;
+}
+
+.linkedin .profile #cartouche .location,
+	.linkedin .profile .position .industry,
+	.linkedin .profile .volunteer .cause,
+	.linkedin .profile .education .degree {
+	color: #999;
+	font-size: smaller;
+}
+
+.linkedin .profile .position .company,
+	.linkedin .profile .publication .publisher,
+	.linkedin .profile .honor .issuer,
+	.linkedin .profile .volunteer .organization {
+	font-weight: bolder;
+}
+
+.linkedin .profile .project-members img,
+	.linkedin .profile .authors img {
+	width: 35px;
+	border: none;
+	margin: 0 5px 5px 0;
+}
+
+.linkedin .profile .project-members .count,
+	.linkedin .profile .authors .count {
+	color: #999;
+	font-size: smaller;
+}
+
+.linkedin .profile .language .proficiency {
+	color: #999;
+	font-size: smaller;
+}
+
+.linkedin .profile .language .proficiency:before {
+	content: ' \2014 \00A0';
+}
+
+.linkedin .profile #cartouche {
+	background-color: #F0F0F0;
+	min-height: 80px;
+	padding: 15px 15px 15px 110px;
+}
+
+.linkedin .profile #cartouche .picture {
+	display: block;
+	float: left;
+	margin-left: -95px;
+	width: 80px;
+	height: auto;
+}
+
+.linkedin .profile #cartouche .name {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.linkedin .profile #cartouche .headline {
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.linkedin .card #cartouche .name {
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.linkedin .card #cartouche .headline {
+	font-weight: bolder;
+}

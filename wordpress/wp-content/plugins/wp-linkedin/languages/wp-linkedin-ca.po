@@ -1,0 +1,768 @@
+# Copyright (C) 2013 WP LinkedIn
+# This file is distributed under the same license as the WP LinkedIn package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-linkedin\n"
+"POT-Creation-Date: 2015-01-21 04:29:43+00:00\n"
+"PO-Revision-Date: 2015-01-30 12:29+0700\n"
+"Last-Translator: Oriol <otorrillas@gmail.com>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"X-POOTLE-MTIME: 1422546512.0\n"
+"X-Poedit-KeywordsList: __();_e()\n"
+"Language-Team: \n"
+
+#: class-admin.php:14 class-admin.php:162
+msgid "LinkedIn Options"
+msgstr "Opcions de LinkedIn"
+
+#: class-admin.php:14
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: class-admin.php:16
+msgid "API Access"
+msgstr "Accés a l'API"
+
+#: class-admin.php:17
+msgid "Application key"
+msgstr "Clau de l'aplicació"
+
+#: class-admin.php:18
+msgid "Application secret"
+msgstr "Secret de l'aplicació"
+
+#: class-admin.php:20
+msgid "Options"
+msgstr "Opcions"
+
+#: class-admin.php:21
+msgid "Profile fields"
+msgstr "Camps del perfil"
+
+#: class-admin.php:22
+msgid "Profile language"
+msgstr "Idioma del perfil"
+
+#: class-admin.php:23
+msgid "Send mail on token expiry"
+msgstr "Envia un correu quan expiri el token"
+
+#: class-admin.php:24
+msgid "Verify SSL peer"
+msgstr "Verifica el peer SSL"
+
+#: class-admin.php:25
+msgid "LinkedIn cards"
+msgstr "Targetes de LinkedIn"
+
+#: class-admin.php:35
+msgid "Settings"
+msgstr "Configuració"
+
+#: class-admin.php:41
+msgid ""
+"As of April 11, 2014 LinkedIn requires that redirect uris\n"
+"\t\t\t\tbe registered, thus forcing every plugin installation to have\n"
+"\t\t\t\tits own application key/secret pair and register the corresponding\n"
+"\t\t\t\tredirect uri."
+msgstr ""
+"Des de l'11 d'abril de 2014, LinkedIn requereix que les\n"
+"\t\t\t\tredireccions d' 'uris' hagin de ser registrades, forçant cada "
+"instal·lació\n"
+"\t\t\t\tdel pluguin tenir el seu propi parell de clau/secret d'aplicació i "
+"registrar-ne\n"
+"\t\t\t\tla corresponent 'uri'."
+
+#: class-admin.php:45
+msgid "Please follow those instructions:"
+msgstr "Si us plau, segueixi les següents instruccions:"
+
+#: class-admin.php:47
+msgid "Go to the LinkedIn Developer Network"
+msgstr "Anar a la Xarxa de Desenvolupadors de LinkedIn"
+
+#: class-admin.php:48
+msgid ""
+"Select the <code>Add a new application</code> link at the bottom of the page"
+msgstr ""
+"Seleccioni l'enllaç <code>Add a new application</code> del final de la pàgina"
+
+#: class-admin.php:49
+msgid ""
+"Fill-in the mandatory fields on the <code>Add New Application</code> form"
+msgstr "Ompli els camps obligatoris del formulari d'afegir una nova aplicació"
+
+#: class-admin.php:50
+msgid ""
+"In the <code>OAuth 2.0 Redirect URLs</code> field specify the following URL"
+msgstr ""
+"En el camp <code>OAuth 2.0 Redirect URLs</code> especifiqui la següent URL"
+
+#: class-admin.php:52
+msgid "Click on the <code>Add Application</code> button"
+msgstr "Faci click al botó <code>Add Application</code>"
+
+#: class-admin.php:53
+msgid ""
+"Copy the <code>API Key</code> and the <code>Secret Key</code> in the "
+"corresponding fields below"
+msgstr ""
+"Copiï el <code>API Key</code> i el <code>Secret Key</code> als camps "
+"corresponents:"
+
+#: class-admin.php:68
+msgid "Comma separated list of fields to show on the profile."
+msgstr "Utilitzi la coma per a separar els camps a mostrar al perfil"
+
+#: class-admin.php:69
+msgid ""
+"You can overide this setting in the shortcode with the `fields` attribute."
+msgstr ""
+"Pot sobreescriure aquesta configuració en el 'shortcode' amb l'atribut "
+"'fields'"
+
+#: class-admin.php:70
+msgid ""
+"See the <a href=\"https://developers.linkedin.com/documents/profile-fields\" "
+"target=\"_blank\">LinkedIn API documentation</a> for the complete list of "
+"fields."
+msgstr ""
+"Miri la <a href=\"https://developers.linkedin.com/documents/profile-fields\" "
+"target=\"_blank\">documentació de l'API de LinkedIn</a> per a la llista "
+"completa de camps."
+
+#: class-admin.php:78
+msgid "Default"
+msgstr "Per defecte"
+
+#: class-admin.php:84
+msgid ""
+"The language of the profile to display if you have several profiles in "
+"different languages."
+msgstr ""
+"Idioma del perfil a mostrar si tens diferents perfils en diferents idiomes."
+
+#: class-admin.php:85
+msgid ""
+"You can overide this setting in the shortcode with the `lang` attribute."
+msgstr "Pot sobreescriure aquesta configuració amb l'atribut 'lang'"
+
+#: class-admin.php:86
+msgid ""
+"See \"Selecting the profile language\" <a href=\"https://developer.linkedin."
+"com/documents/profile-api\" target=\"_blank\">LinkedIn API documentation</a> "
+"for details."
+msgstr ""
+"Anar a \"Seleccionar l'idioma del perfil\" de la <a href=\"https://developer."
+"linkedin.com/documents/profile-api\" target=\"_blank\">documentació de l'API "
+"de LinkedIn</a> per més detalls."
+
+#: class-admin.php:92
+msgid ""
+"Check this option if you want the plugin to send you an email when the token "
+"has expired or is invalid."
+msgstr ""
+"Marca aquesta opció si vol que el plugin li enviï un correu electrònic quan "
+"el 'token' hagi expirat o no sigui vàlid."
+
+#: class-admin.php:98
+msgid ""
+"Uncheck this option only if you have SSL certificate issues on your server."
+msgstr ""
+"Desactivi aquesta opció només si tens problemes de certificats SSL en el teu "
+"servidor."
+
+#: class-admin.php:108
+msgid "Check the content types where you want your LinkedIn card inserted."
+msgstr ""
+"Marqui aquesta opció per mostrar la targeta de LinkedIn després de cada "
+"missatge."
+
+#: class-admin.php:113
+msgid ""
+"Your must create an application key/secret to access the LinkedIn API. "
+"Please follow the instructions <a href=\"%s\">on the settings page</a>."
+msgstr ""
+"Ha d'obtenir una clau/secret d'aplicació per accedir a l'API de LinkedIn. Si "
+"us plau, segueixi les instruccions <a href=\"%s\">de la pàgina de "
+"configuració</a>."
+
+#: class-admin.php:122
+msgid "An error has occured while retrieving the profile:"
+msgstr "S'ha produït un error en recollir el perfil:"
+
+#: class-admin.php:126
+msgid ""
+"Your LinkedIn access token is invalid or has expired, please <a href=\"%s"
+"\">click here</a> to get a new one."
+msgstr ""
+"El seu token d'accés a LinkedIn no és vàlid o ha caducat, si us plau <a href="
+"\"%s\">fes clic aquí</a> per obtenir-ne un de nou."
+
+#: class-admin.php:137
+msgid "The access token has been successfully updated."
+msgstr "El token d'accés s' ha actualitzat correctament."
+
+#: class-admin.php:143
+msgid "An error has occured while updating the access token, please try again."
+msgstr ""
+"Hi ha hagut un error a l'actualitzar el token. Si us plau, torni a intentar-"
+"ho."
+
+#: class-admin.php:144
+msgid "Error message: "
+msgstr "Missatge d'error:"
+
+#: class-admin.php:151 class-admin.php:158
+msgid "The cache has been cleared."
+msgstr "S'ha esborrat la memòria cau."
+
+#: class-admin.php:185
+msgid "Administration"
+msgstr "Administració"
+
+#: class-admin.php:188
+msgid "Regenerate LinkedIn Access Token"
+msgstr "Regenerar el 'token' d'accés a LinkedIn"
+
+#: class-admin.php:189
+msgid "Clear the Cache"
+msgstr "Neteja la memòria cau"
+
+#: class-admin.php:197
+msgid "Do you like this Plugin?"
+msgstr "¿T'agrada aquest plugin?"
+
+#: class-admin.php:199
+msgid "Please consider a donation."
+msgstr "Si us plau, considera una donació"
+
+#: class-admin.php:209
+msgid "We also need volunteers to translate that plugin into more languages."
+msgstr ""
+"També necessitem més voluntaris per a traduir aquest plugin a més idiomes."
+
+#: class-admin.php:210
+msgid ""
+"If you wish to help then contact <a href=\"https://twitter.com/cvedovini"
+"\">@cvedovini</a> on Twitter or use that <a href=\"http://vedovini.net/"
+"contact/\">contact form</a>."
+msgstr ""
+"Si vols ajudar, pots posar-te en contacte amb <a href=\"https://twitter.com/"
+"cvedovini\">@cvedovini</a> mitjançant Twitter o utilitzant aquest <a href="
+"\"http://vedovini.net/contact/\"> formulari de contacte</a>."
+
+#: class-admin.php:226
+msgid "Bahasa Indonesia"
+msgstr "Bahasa Indonesia"
+
+#: class-admin.php:227
+msgid "Czech"
+msgstr "Txec"
+
+#: class-admin.php:228
+msgid "Danish"
+msgstr "Danès"
+
+#: class-admin.php:229
+msgid "Dutch"
+msgstr "Holandès"
+
+#: class-admin.php:230
+msgid "French"
+msgstr "Francès"
+
+#: class-admin.php:231
+msgid "German"
+msgstr "Alemany"
+
+#: class-admin.php:232
+msgid "Italian"
+msgstr "Italià"
+
+#: class-admin.php:233
+msgid "Japanese"
+msgstr "Japonès"
+
+#: class-admin.php:234
+msgid "Korean"
+msgstr "Coreà"
+
+#: class-admin.php:235
+msgid "Malay"
+msgstr "Malai"
+
+#: class-admin.php:236
+msgid "Norwegian"
+msgstr "Noruec"
+
+#: class-admin.php:237
+msgid "Polish"
+msgstr "Polonès"
+
+#: class-admin.php:238
+msgid "Portuguese"
+msgstr "Portuguès"
+
+#: class-admin.php:239
+msgid "Romanian"
+msgstr "Romanès"
+
+#: class-admin.php:240
+msgid "Russian"
+msgstr "Rus"
+
+#: class-admin.php:241
+msgid "Spanish"
+msgstr "Espanyol"
+
+#: class-admin.php:242
+msgid "Swedish"
+msgstr "Suec"
+
+#: class-admin.php:243
+msgid "Turkish"
+msgstr "Turc"
+
+#: class-admin.php:244
+msgid "Albanian"
+msgstr "Albanès"
+
+#: class-admin.php:245
+msgid "Armenian"
+msgstr "Armeni"
+
+#: class-admin.php:246
+msgid "Bosnian"
+msgstr "Bosnià"
+
+#: class-admin.php:247
+msgid "Burmese (Myanmar)"
+msgstr "Birmania (Myanmar)"
+
+#: class-admin.php:248
+msgid "Chinese (Simplified)"
+msgstr "Xinès (simplificat)"
+
+#: class-admin.php:249
+msgid "Chinese (Traditional)"
+msgstr "Xinès (tradicional)"
+
+#: class-admin.php:250
+msgid "Croatian"
+msgstr "Croat"
+
+#: class-admin.php:251
+msgid "Finnish"
+msgstr "Finlandès"
+
+#: class-admin.php:252
+msgid "Greek"
+msgstr "Grec"
+
+#: class-admin.php:253
+msgid "Hindi"
+msgstr "Hindú"
+
+#: class-admin.php:254
+msgid "Hungarian"
+msgstr "Hongarès"
+
+#: class-admin.php:255
+msgid "Icelandic"
+msgstr "Islandès"
+
+#: class-admin.php:256
+msgid "Javanese"
+msgstr "Javanès"
+
+#: class-admin.php:257
+msgid "Kannada"
+msgstr "Kanarès"
+
+#: class-admin.php:258
+msgid "Latvian"
+msgstr "Letó"
+
+#: class-admin.php:259
+msgid "Lithuanian"
+msgstr "Lituà"
+
+#: class-admin.php:260
+msgid "Malayalam"
+msgstr "Malaiàlam"
+
+#: class-admin.php:261
+msgid "Serbian"
+msgstr "Serbi"
+
+#: class-admin.php:262
+msgid "Slovak"
+msgstr "Eslovac"
+
+#: class-admin.php:263
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: class-admin.php:264
+msgid "Tamil"
+msgstr "Tàmil"
+
+#: class-admin.php:265
+msgid "Telugu"
+msgstr "Telugu"
+
+#: class-admin.php:266
+msgid "Thai"
+msgstr "Tailandès"
+
+#: class-admin.php:267
+msgid "Ukrainian"
+msgstr "Ucraïnès"
+
+#: class-admin.php:268
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: class-admin.php:269
+msgid "Other"
+msgstr "Altres"
+
+#: class-card-widget.php:6
+msgid "LinkedIn Card"
+msgstr "Targeta de LinkedIn"
+
+#: class-card-widget.php:7
+msgid "A widget displaying your LinkedIn card"
+msgstr "Un widget que mostra la teva targeta de LinkedIn"
+
+#: class-card-widget.php:40 class-profile-widget.php:44
+#: class-recommendations-widget.php:45 class-updates-widget.php:39
+msgid "Title:"
+msgstr "Títol:"
+
+#: class-card-widget.php:44
+msgid "Width of picture (in px):"
+msgstr "Amplada de la imatge (en px)"
+
+#: class-card-widget.php:48
+msgid "Max length of summary (in char):"
+msgstr "Longitud màxima del resum (en caràcters):"
+
+#: class-card-widget.php:50
+msgid "Specify '0' to hide the summary."
+msgstr "Especifiqui '0' per amagar el resum."
+
+#: class-linkedin-connection.php:101
+msgid "An unknown error has occured and no token was retrieved."
+msgstr "Hi ha hagut un error desconegut i no s'ha pogut recuperar cap 'token'."
+
+#: class-linkedin-connection.php:248
+msgid "HTTP request returned error code %d."
+msgstr "Codi d'error retornat en la comanda HTTP%d."
+
+#: class-linkedin-connection.php:260
+msgid "No token or token has expired."
+msgstr "No hi ha cap token o aquest ha expirat."
+
+#: class-linkedin-connection.php:269
+msgid "Invalid or expired access token"
+msgstr "Token d'accès no vàlid o caducat."
+
+#: class-linkedin-connection.php:271
+msgid ""
+"The access token for the WP LinkedIn plugin is either invalid or has "
+"expired, please click on the following link to renew it."
+msgstr ""
+"El token d'accès al plugin WP LinkedIn no es vàlid o ha caducat, si us plau "
+"faci clic al següent enllaç per renovar-lo."
+
+#: class-linkedin-connection.php:273
+msgid "This link will only be valid for a limited period of time."
+msgstr "Aquest enllaç només serà vàlid per un període determinat de temps."
+
+#: class-linkedin-connection.php:274
+msgid "-Thank you."
+msgstr "- Gràcies."
+
+#: class-profile-widget.php:6
+msgid "LinkedIn Profile"
+msgstr "Perfil de LinkedIn"
+
+#: class-profile-widget.php:7
+msgid ""
+"A widget displaying your LinkedIn profile using the LinkedIn Javascript API"
+msgstr ""
+"Un widget que mostra el teu perfil de LinkedIn mitjançant l'API de "
+"Javascript de LinkedIn"
+
+#: class-profile-widget.php:49
+msgid "Show connections"
+msgstr "Mostrar les connexions"
+
+#: class-recommendations-widget.php:6
+msgid "LinkedIn Recommendations"
+msgstr "Recomanacions de LinkedIn"
+
+#: class-recommendations-widget.php:7
+msgid "A slider with your LinkedIn recommendations"
+msgstr "Un 'slider' amb les teves recomanacions de LinkedIn"
+
+#: class-recommendations-widget.php:49
+msgid "Width of widget (in px):"
+msgstr "Amplada del widget (en px):"
+
+#: class-recommendations-widget.php:51
+msgid ""
+"You can also specify 'auto' to let javascript automatically compute the "
+"width or 'css' to set it yourself using your theme's stylesheet."
+msgstr ""
+"També pots especificar 'auto' per permetre al Javascript automàticament "
+"calcular l'amplada o utilitzar el 'CSS' per establir-la vostè mateix."
+
+#: class-recommendations-widget.php:54
+msgid "Length of recommendations (in char):"
+msgstr "Longitud de les recomanacions (en caràcters):"
+
+#: class-recommendations-widget.php:58
+msgid "Scroller's speed:"
+msgstr "Velocitat de desplaçament"
+
+#: class-updates-widget.php:6
+msgid "LinkedIn Network Updates"
+msgstr "Actualitzacions de la xarxa LinkedIn"
+
+#: class-updates-widget.php:7
+msgid "A widget displaying your LinkedIn network updates"
+msgstr "Un widget que mostra les actualitzacions de la xarxa LinkedIn"
+
+#: class-updates-widget.php:43
+msgid "Number of updates to show:"
+msgstr "Nombre de missatges a mostrar:"
+
+#: class-updates-widget.php:48
+msgid "Show my updates only"
+msgstr "Mostra només les meves actualitzacions"
+
+#: templates/network-updates.php:7 templates/profile-projects.php:21
+#: templates/profile-publications.php:24
+#: templates/profile-recommendations.php:11 templates/recommendations.php:18
+msgid "Anonymous"
+msgstr "Anònim"
+
+#: templates/network-updates.php:41
+msgid "%1$s is now connected to %2$s."
+msgstr "%1$s está ara connectat amb %2$s."
+
+#: templates/network-updates.php:47
+msgid "%s is now a connection."
+msgstr "%s és ara una connexió."
+
+#: templates/network-updates.php:52
+msgid "%s has joined LinkedIn."
+msgstr "%s s'ha afegit a LinkedIn."
+
+#: templates/network-updates.php:57 templates/network-updates.php:62
+msgid "%1$s says: %2$s"
+msgstr "%1$s diu: %2$s"
+
+#: templates/network-updates.php:67
+msgid "%1$s likes: %2$s"
+msgstr "A %1$s li agrada: %2$s"
+
+#: templates/network-updates.php:77
+msgid "%1$s joined the group %2$s."
+msgid_plural "%1$s joined the groups %2$s."
+msgstr[0] "%1$s s'ha afegit al grup %2$s."
+msgstr[1] "%1$s s'ha afegit als grups %2$s."
+
+#: templates/network-updates.php:92
+msgid "%s has a new profile picture."
+msgstr "%s té una nova imatge de perfil."
+
+#: templates/network-updates.php:99 templates/network-updates.php:129
+msgid "%s has an updated profile."
+msgstr "%s ha actualitzat el seu perfil."
+
+#: templates/network-updates.php:109
+msgid "%1$s recommends %2$s."
+msgstr "%1$s recomana %2$s."
+
+#: templates/network-updates.php:116
+msgid "%1$s posted a job: %2$s at %3$s."
+msgstr "%1$s ha publicat un treball: %2$s a %3$s."
+
+#: templates/network-updates.php:123
+msgid "%1$s is now following %2$s."
+msgstr "%1$s ara segueix a %2$s."
+
+#: templates/network-updates.php:142
+msgid "No updates"
+msgstr "No hi ha actualitzacions"
+
+#: templates/profile-educations.php:2 wp-linkedin.php:416
+msgid "Education"
+msgstr "Educació"
+
+#: templates/profile-educations.php:5 templates/profile-positions.php:5
+#: templates/profile-projects.php:8 templates/profile-volunteer.php:6
+msgid "Present"
+msgstr "Present"
+
+#: templates/profile-educations.php:8
+msgid "Activities and societies"
+msgstr "Activitats i societats"
+
+#: templates/profile-header.php:10
+msgid "Summary"
+msgstr "Resum"
+
+#: templates/profile-header.php:17
+msgid "Specialties"
+msgstr "Especialitats"
+
+#: templates/profile-honors.php:2
+msgid "Honors & Awards"
+msgstr "Premis i reconeixements"
+
+#: templates/profile-languages.php:2
+msgid "Languages"
+msgstr "Idiomes"
+
+#: templates/profile-positions.php:2
+msgid "Experience"
+msgstr "Experiència"
+
+#: templates/profile-projects.php:2
+msgid "Projects"
+msgstr "Projectes"
+
+#: templates/profile-projects.php:11
+msgid "%d team members"
+msgstr "%d membres d'equip"
+
+#: templates/profile-publications.php:2
+msgid "Publications"
+msgstr "Publicacions"
+
+#: templates/profile-publications.php:14
+msgid "%d authors"
+msgstr "%d autors"
+
+#: templates/profile-recommendations.php:2
+msgid "Recommendations"
+msgstr "Recomanacions"
+
+#: templates/profile-skills.php:2
+msgid "Skills &amp; Expertise"
+msgstr "Habilitats"
+
+#: templates/profile-volunteer.php:2
+msgid "Volunteer Experiences"
+msgstr "Experiències de voluntariat"
+
+#: wp-linkedin.php:138
+msgid "Invalid state"
+msgstr "Estat no vàlid"
+
+#: wp-linkedin.php:151
+msgid ""
+"Please click <a href=\"%s\">here</a> if you are not redirected immediately."
+msgstr ""
+"Si us plau, cliqui <a href=\"%s\">aquí</a> si no sou redireccionats "
+"immediatament."
+
+#: wp-linkedin.php:312
+msgid "You don't have any recommendation to show."
+msgstr "No té cap recomanació a mostrar."
+
+#: wp-linkedin.php:410
+msgid "Animal Welfare"
+msgstr "Benestar animal"
+
+#: wp-linkedin.php:411
+msgid "Arts and Culture"
+msgstr "Art i Cultura"
+
+#: wp-linkedin.php:412
+msgid "Children"
+msgstr "Fills"
+
+#: wp-linkedin.php:413
+msgid "Civil Rights and Social Action"
+msgstr "Drets civils i acció social"
+
+#: wp-linkedin.php:414
+msgid "Disaster and Humanitarian Relief"
+msgstr "Desastres naturals i ajuda humanitaria"
+
+#: wp-linkedin.php:415
+msgid "Economic Empowerment"
+msgstr "Creixement econòmic"
+
+#: wp-linkedin.php:417
+msgid "Environment"
+msgstr "Medi ambient"
+
+#: wp-linkedin.php:418
+msgid "Health"
+msgstr "Salut"
+
+#: wp-linkedin.php:419
+msgid "Human Rights"
+msgstr "Drets humans"
+
+#: wp-linkedin.php:420
+msgid "Politics"
+msgstr "Política"
+
+#: wp-linkedin.php:421
+msgid "Poverty Alleviation"
+msgstr "Ajuda a la pobresa"
+
+#: wp-linkedin.php:422
+msgid "Science and Technology"
+msgstr "Ciència i tecnologia"
+
+#: wp-linkedin.php:423
+msgid "Social Services"
+msgstr "Serveis Socials"
+
+#. Plugin Name of the plugin/theme
+msgid "WP LinkedIn"
+msgstr "WP LinkedIn"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://vedovini.net/plugins/?"
+"utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-linkedin"
+msgstr ""
+"http://vedovini.net/plugins/?"
+"utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-linkedin"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin enables you to add various part of your LinkedIn profile to your "
+"Wordpress blog."
+msgstr ""
+"Aquest plugin et permet integrar diferents parts del teu perfil de LinkedIn "
+"dins el teu Wordpress."
+
+#. Author of the plugin/theme
+msgid "Claude Vedovini"
+msgstr "Claude Vedovini"
+
+#. Author URI of the plugin/theme
+msgid ""
+"http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-"
+"linkedin"
+msgstr ""
+"http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=wp-"
+"linkedin"
